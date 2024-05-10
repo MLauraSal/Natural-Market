@@ -351,7 +351,7 @@ main {
 
 .email {
     margin: .7rem 0;
-    width: 100%;
+    width: 75%;
     padding: 1rem;
     
     border: 0.1rem solid #666;
@@ -370,9 +370,12 @@ main {
 
 
 .footer-box .sellos {
-    display:block;
+    justify-content: space-between;
     width: 30%;
     margin-bottom: 3rem;
+    margin-left: 1rem;
+    align-items: center;
+    
 }  
 
 .footer .copyright {
@@ -402,17 +405,25 @@ main {
         padding: 2rem;
     }
 
-
+    section {
+        padding: 2rem;
+    }
 
 }
 
 @media (max-width: 768px) {
+
+    #menu-btn {
+        display: inline-block;
+    }
     .navbar {
         position: absolute;
         top: 110%;
-        right: 2rem;
+        right: -110%;
         width: 30rem;
         box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: var(--bg-color);
     }
 
     .navbar a {
@@ -426,11 +437,31 @@ main {
     .title-logo {
         font-size: 2rem;
     }
+    
+
 }
 
 @media (max-width: 450px) {
     html {
         font-size: 50%;
     }
+    
+    .footer-box {
+        text-align: center;
+    }
+    .footer-box a {
+        text-align: left;
+    }
+
+    .footer-box .sellos {
+       
+        width: 30%;
+        margin-bottom: 3rem;
+    }
+    .social  {
+        
+        justify-content: center;
+        
+    } 
 
 }
