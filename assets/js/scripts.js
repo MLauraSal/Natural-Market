@@ -16,6 +16,9 @@ document.getElementById("cart-btn").addEventListener("click", () => {
     window.location.href = "pages/products.html";
 });
 
+/*
+ * FUNCTION LOGIN
+*/
 const loginForm = document.querySelector('.login-form');
 
 document.querySelector('#login-btn').onclick = () =>
@@ -26,6 +29,9 @@ document.querySelector('#login-btn').onclick = () =>
 
 }
 
+/*
+ * FUNCTION NAVBAR
+*/
 const navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>
@@ -35,16 +41,11 @@ document.querySelector('#menu-btn').onclick = () =>
     loginForm.classList.remove('active');
 }
 
-/*
- * FUNCTION SLIDER
-*/
-var swiper = new Swiper(".home", {
-    
-    spaceBetween: 30,
-    centeredSlides: true,
-   
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+
+window.onscroll = () => {
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    loginForm.classList.remove('active');
+}
+
+
