@@ -17,6 +17,7 @@
       
     <!--Styles-->
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/recipes.css">
 
   </head>
 
@@ -33,7 +34,7 @@
 
             <a href="/index.html">Home</a>
             <a href="/pages/products.html">Productos</a>
-            <a href="/pages/recipes.html">Recetas</a>
+            <a href="/pages/recipes.htmll">Recetas</a>
             <a href="/pages/contact.html">Contacto</a>
             
         </nav>
@@ -63,7 +64,24 @@
 
     <!---------- MAIN ---------->
     <main>
-
+        <section class="recipe-search">
+            <form id="searchForm">
+                <input type="text" id="query" placeholder="Buscar por ingrediente..." />
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        <section id="recipes" class="recipes-container">
+            <!-- Las recetas se mostrarán aquí -->
+        </section>
+        <!-- Modal para los detalles de la receta -->
+        <div id="recipe-modal" class="recipe-modal">
+            <div class="recipe-modal-content">
+                <span class="recipe-modal-close">&times;</span>
+                <div id="recipe-details">
+                    <!-- Detalles de la receta aquí -->
+                </div>
+            </div>
+        </div>
        
     </main>
      <footer class="footer">
@@ -83,7 +101,7 @@
             <h3>Contact Info</h3>
             <a href="#"><i class="fab fa-whatsapp-square"></i>+54 9 11 5555 5555</a>
             <a href="#"><i class="fa-solid fa-phone"></i>+54 9 11 2222 2222</a>
-            <a href="/pages/contact.html"><i class="fa-solid fa-envelope"></i>naturalmarket@gmail.com</a>
+            <a href="pages/contact.html"><i class="fa-solid fa-envelope"></i>naturalmarket@gmail.com</a>
             <a href="#"><i class="fa-solid fa-location-dot"></i>Hipolito Yrigoyen 25 Quilmes</a>
          </div>
          <div class="footer-box">
@@ -110,7 +128,7 @@
             <a href="#"><i class="fa-solid fa-arrow-right"></i>Cómo hacer un pedido</a>
             <a href="#"><i class="fa-solid fa-arrow-right"></i>Seguimiento de envío</a>
             <p class="payment-title">Medios de pago:</p>
-            <img src="/assets/img/payment-img.png" alt="medios de pago" class="payment-img">
+            <img src="assets/img/payment-img.png" alt="medios de pago" class="payment-img">
             
         </div>
 
@@ -133,6 +151,7 @@
    
     <!-- Link JS -->
     <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/recipes.js"></script>
     <!-- Font awesome JS -->
     <script src="https://kit.fontawesome.com/70afb11fe8.js" crossorigin="anonymous"></script>
   </body>

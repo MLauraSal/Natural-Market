@@ -39,6 +39,9 @@ body {
 section {
     padding: 2rem 9%;
 }
+ main {
+    background: url(/assets/img/hero-left-bg.png);
+}
 
 .heading {
     text-align: center;
@@ -287,7 +290,7 @@ section {
     width: 100%;
     min-height: 650px;
     align-items: center;
-    background: url(/assets/img/Sin\ título.png) no-repeat;
+    background: url(/assets/img/BannerHome.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -331,9 +334,7 @@ section {
 /*-----------------------------------*\
   #SECTION SERVICIOS
 \*-----------------------------------*/
-.servicios {
-    background: url(/assets/img/hero-left-bg.png);
-}
+
 .servicios .box-container {
     border: 0px solid;
     display:grid;
@@ -380,9 +381,7 @@ section {
   #SECTION CATEGORIES
 \*-----------------------------------*/
 
-.categories {
-    background: url(/assets/img/hero-left-bg.png);
-}
+
 .categories .box-container {
     border: 0px solid;
     display:grid;
@@ -433,7 +432,7 @@ section {
 }
 
 .review .review-slider .box {
-    border: 0px solid red;
+    border: 0px solid;
     background: var(--bg-color);
     border-radius: .5rem;
     text-align: center;
