@@ -16,7 +16,7 @@
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
       
     <!--Styles-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/recipes.css">
 
   </head>
@@ -64,12 +64,24 @@
 
     <!---------- MAIN ---------->
     <main>
-        <section class="recipe-search">
-            <form id="searchForm">
-                <input type="text" id="query" placeholder="Buscar por ingrediente..." />
-                <button type="submit">Buscar</button>
-            </form>
+
+          <!---------- start HOME ---------->
+          <section class="home-recipes">
+            <div class="recipe-content">
+                <h3>"Ingredientes simples, resultados extraordinarios."</h3>
+                <p> Te brindamos recetas para tu inspiracion...</p>
+                
+              
+
+                <form id="searchForm">
+                    <input type="text" id="query" placeholder="Buscar por ingrediente..." />
+                    <button type="submit" >Buscar</button>
+                </form>
+            </div>
+
         </section>
+        <!---------- end HOME ---------->
+      
         <section id="recipes" class="recipes-container">
             <!-- Las recetas se mostrarán aquí -->
         </section>
