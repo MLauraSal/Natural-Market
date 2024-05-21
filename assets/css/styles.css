@@ -40,7 +40,7 @@ section {
     padding: 2rem 9%;
 }
  main {
-    background: url(/assets/img/hero-left-bg.png);
+    background: url(../assets/img/hero-left-bg.png);
 }
 
 .heading {
@@ -290,7 +290,7 @@ section {
     width: 100%;
     min-height: 650px;
     align-items: center;
-    background: url(/assets/img/BannerHome.png) no-repeat;
+    background: url(../assets/img/BannerHome.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
