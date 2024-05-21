@@ -13,14 +13,6 @@ document.querySelector('#shop-btn').onclick = () =>
 }
 
 
-
-
-
-
-
-
-
-
 const swiper = new Swiper ('.product-slider', {
 
     
@@ -44,3 +36,21 @@ const swiper = new Swiper ('.product-slider', {
         },
     }, 
 });
+
+/*
+ * Comenzar cuando el documento este listo
+*/
+
+if(document.readyState == "loading"){ 
+    document.addEventListener("DOMContentLoaded", start);
+}else {
+    start();
+}
+
+/*
+ * COMENZAR
+*/
+
+function start(){ 
+    addEvents();
+}

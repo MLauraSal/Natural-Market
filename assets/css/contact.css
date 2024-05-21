@@ -2,14 +2,16 @@
 
 .contact-container {
     max-width: 800px;
-    margin: 100px auto 50px auto; /* Ajusta el margen superior según sea necesario */
+    margin: 150px auto 50px auto; /* Ajusta el margen superior según sea necesario */
     padding: 20px;
-    background-color: var(--bg-color); /* Usa el color de fondo definido en :root */
+    height: auto;
+    background:var(--bg-color); /* Usa el color de fondo definido en :root */
     border-radius: 10px; /* Agrega bordes redondeados para suavizar la apariencia */
     box-shadow: var(--box-shadow); /* Agrega sombra para resaltar el formulario */
 }
 
 .contact-container h2 {
+    font-size: 3rem;
     text-align: center;
     margin-bottom: 20px;
     color: var(--orange-color); /* Usa el color de texto definido en :root */
@@ -22,6 +24,7 @@
 .contact-form .form-group label {
     display: block;
     font-weight: bold;
+    font-size: 1.5rem;
     color: var(--text-color); /* Usa el color de texto definido en :root */
 }
 
