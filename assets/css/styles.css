@@ -399,12 +399,13 @@ main {
     outline-offset: -1rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow-1);
-    transition: 0.2s linear;
+    transition: 0.2s ease-in-out;
    
 }
 
 .categories .box-container .box:hover {
-    box-shadow: 0 0.5rem 1rem var(--green-color); /* Cambiado a box-shadow */
+    box-shadow: 0 0.5rem 1rem var(--green-color); 
+    transform: translateY(-5px);
 }
 
 .categories .box-container .box img {
@@ -664,7 +665,11 @@ main {
     .footer-box a {
         text-align: left;
     }
-
+    .social a {
+        
+        text-align: center;
+    }
+    
     
     .social  {
         

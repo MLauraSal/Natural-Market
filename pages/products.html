@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Natural Market</title>
-    
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +14,13 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap"
         rel="stylesheet">
 
-     <!--Favicon-->   
-     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-     <link rel="manifest" href="/site.webmanifest">
- 
-     <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
 
     <!--Font-awesome-->
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css>
@@ -52,7 +52,7 @@
         <!--Menu-->
         <div class="icons">
             <div id="search-btn"><i class="fas fa-search"></i></div>
-            <div id="shop-btn"><i class="fas fa-cart-arrow-down"></i></div>
+            <div id="shop-btn"><i class="fa-solid fa-cart-shopping"></i></div>
             <div id="login-btn"><i class="fas fa-user"></i></div>
             <div id="menu-btn"><i class="fas fa-bars"></i></div>
 
@@ -71,262 +71,40 @@
             <input type="submit" value="Login" class="btn">
 
         </form>
-        <!--Cart-->
-        <div class="cart">
-            <h2 class="cart-title">Tu carrito</h2>
-            <!--Cart content-->
-            <div class="box">
-                <i class="fa-solid fa-trash-can" id="cart-remove"></i>
-                <img src="../assets/img/products/istockphoto-480451586-612x612.jpg" alt="">
+        
+       <!--Cart-->
+       <div class="card">
+        <h1 class="card-title">Shopping Cart</h1>
 
-                
-               <div class="cart-content">
-                    <h2 class="product-title">Legumbres</h2>
-                    <span class="cart-quantity">Cant. : 2</span>
-                    <span class="precio">$1000</span>
-               </div>
-
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-trash-can" id="cart-remove"></i>
-                <img src="../assets/img/products/feculademandioca.jpg" alt="">
-                <div class="cart-content">
-                    <h2 class="product-title">Fecula de Mandioca</h2>
-                    <span class="quantity">Cant. : 2</span>
-                    <span class="precio">$2000</span>
-                </div>
-
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-trash-can" id="cart-remove"></i>
-                <img src="../assets/img/products/aceitedecoco.jpg" alt="">
-                <div class="cart-content">
-                    <h2>Aceite de Coco</h2>
-                    <span class="quantity">Cant. : 2</span>
-                    <span class="precio">$2000</span>
-                    
-                </div>
-
-            </div>
-            <div class="total">
-                <div class="total-title">Total</div>
-                <div class="total-precio">$5000</div>
-            </div>
-            <a href="#" class="btn">Comprar</a>
-
-            
+         <!--Cart content-->
+        <ul class="listCard">
+        </ul>
+        <div class="checkout">
+            <div class="total">$ 0 </div>
+            <div class="cart-close">Close</div>
         </div>
+    </div>
+
+        
 
     </header>
 
-    <!---------- MAIN ---------->
-    <main>
+     <!---------- MAIN ---------->
+     <main>
         <!---------- start SHOP ---------->
-        <section class="products container" id="shop">
+        <section class="shop container" id="shop">
             <h1 class="heading">Nuestros <span>Productos</span></h1>
 
-            <div class="swiper product-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/istockphoto-480451586-612x612.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Legumbres </h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
+            <div class="list" >
 
 
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/2148337415.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Manteca de coco </h3>
-                        <div class="product-price">$1500</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
 
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/aceitedecoco.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Aceite de Coco</h3>
-                        <div class="product-price">$2000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/feculademandioca.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Fecula de Mandioca</h3>
-                        <div class="product-price">$2000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/a-variety-of-fusilli-pasta-from-different-types-of-legumes-gluten-free-pasta-photo.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Pastas s/TACC</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/cacaoamargo.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Cacao amargo</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                </div>
             </div>
-            <div class="swiper product-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/lechedemani.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Leche de Mani</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
 
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/Jugos.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Jugos Naturales</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/Especias.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Especias </h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/lechedeavellanas.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Leche de Avellanas</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/harinademaiz.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Harina de Maiz</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                    <div class="swiper-slide box">
-                        <img src="../assets/img/products/chia.jpg" alt=""
-                            class="product-img">
-                        <h3 class="product-title">Semillas de Chia</h3>
-                        <div class="product-price">$1000</div>
-                        <div class="product-stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <a href="" class="btn">Add to cart</a>
-
-
-                    </div>
-                </div>
-            </div>
         </section>
+
         <!---------- end SHOP ---------->
+
 
     </main>
     <footer class="footer">
@@ -396,12 +174,13 @@
 
 
 
-     <!---------- SCRIPTS ---------->
+    <!---------- SCRIPTS ---------->
 
     <!-- Swiper script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Link JS -->
     <script src="../assets/js/products.js"></script>
+
     <!-- Link JS -->
     <script src="../assets/js/scripts.js"></script>
     <!-- Font awesome JS -->
