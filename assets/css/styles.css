@@ -41,7 +41,7 @@ section {
 }
 
 main {
-    background: url(./assets/img/hero-left-bg.png);
+    background: url(/assets/img/hero-left-bg.png);
 }
 
 .heading {
@@ -144,7 +144,7 @@ main {
 
 }
 
-.header .navbar-nav a {
+.header .navbar a {
     font-size: 1.7rem;
     font-weight: 500;
     color: var(--text-color);

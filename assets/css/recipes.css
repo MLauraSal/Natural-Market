@@ -17,7 +17,7 @@ body {
   width: 100%;
   min-height: 650px;
   align-items: center;
-  background: url(../assets/img/pexels-kampus-7964669.jpg) no-repeat;
+  background: url(/assets/img/pexels-kampus-7964669.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
