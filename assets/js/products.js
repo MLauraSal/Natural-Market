@@ -33,7 +33,7 @@ let products = [
     {
         id: 1,
         name: 'Legumbres',
-        image: './assets/img/products/istockphoto-480451586-612x612.jpg',
+        image: '../assets/img/products/istockphoto-480451586-612x612.jpg',
         price: 1200
        
         
