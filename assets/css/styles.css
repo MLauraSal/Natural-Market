@@ -291,7 +291,7 @@ main {
     width: 100%;
     min-height: 650px;
     align-items: center;
-    background: url(../assets/img/BannerHome.png) no-repeat;
+    background: url(../img/BannerHome.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
