@@ -120,7 +120,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="/assets/img/products/${value.image}"  class="product-img">
+            <img src="../assets/img/products/${value.image}"  class="product-img">
             <h2 class="product-name">${value.name}</h2>
             <span class="product-price">${value.price.toLocaleString()}</span>
             <button onclick="addToCard(${key})" class="add-cart btn">Add To Cart</button>`;
@@ -175,7 +175,7 @@ function reloadCard(){
             // Crear elementos HTML para mostrar el producto en el carrito
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="/assets/img/products/${value.image}"/></div>
+                <div><img src="../assets/img/products/${value.image}"/></div>
                 <div class="product-name">${value.name}</div>
                 <div class="product-price">${value.price.toLocaleString()}</div>
                 <div>
