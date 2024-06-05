@@ -106,3 +106,6 @@ Nuestro proyecto cuenta con 4 paginas funcionales:
 ## Vista de la pagina:
 
 [Ir a la pagina](https://naturalmarket-grupo15.netlify.app/)
+
+
+[Ir a la pagina](https://mlaurasal.github.io/Natural-Market/)
